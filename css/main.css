@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(to left, purple , white);
+}
+
+.container{
+    background-color: white;
+    width: 500px;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 30px;
+    border-bottom: 1px solid purple;
+}
+
+.quiz{
+    padding: 10px 0;
+}
+
+h2{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.btn{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    transition: all 0.9s;
+}
+
+.btn:hover:not([disabled]){
+    background-color: purple;
+}
+
+.btn:disabled{
+    cursor: no-drop;
+}
+
+#next-btn{
+    background-color: purple;
+    width: 150px;
+    padding: 10px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-weight: 500;
+    display: none;
+    margin-left: 34%;
+}
+
+.yes{
+    background: purple;
+}
+
+.no{
+    background: purple;
+}
